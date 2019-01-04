@@ -11,3 +11,121 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /about.html
+  - title: 예제로 배우는 PyQt
+    url:        /page_learn_pyqt.html
+
+docs-pyqt:
+  - title: 일러두기
+  - title: 개발 준비
+    children:
+      - title: Windows
+      - title: MacOS
+      - title: Linux
+
+  - title: PyQt로 GUI 프로그램 제작 맛보기
+    children:
+      - title: 창 띄우기
+      - title: ui 파일 다루기
+      - title: 코드를 작성하여 위젯 배치
+      - title: Qt 문서 보는 방법
+      - title: 주요 모듈 설명
+
+  - title: 시그널과 슬롯
+    children:
+      - title: Signal과 Slot 이해
+      - title: Signal과 Slot 연결
+      - title: 람다(lambda) 함수를 이용하여 값 처리 및 전달
+      - title: 사용자 정의 Signal 만들기
+      - title: 사용자 정의 Signal 반환 값 타입
+      - title: 사용자 정의 Slot 여러 타입의 값을 받을 수 있게 만들기
+
+  - title: Widget
+    children:
+      - title: 기본 폼 생성
+      - title: 폼 위에 위젯 올리기
+      - title: 위젯 크기 및 위치 변경
+      - title: 윈도우 타이틀 및 아이콘 변경
+
+  - title: Layout
+    children:
+      - title: 레이아웃 사용
+      - title: 레이아웃에 배치된 위젯 정렬 #1
+      - title: 레이아웃에 배치된 위젯 정렬 #2
+      - title: QBoxLayout
+      - title: QHBoxLayout
+      - title: QVBoxLayout
+      - title: Form Layout
+      - title: QGridLayout
+      - title: QSpacerItem
+      - title: 그 외
+
+  - title: Button
+    children:
+      - title: QPushButton
+      - title: QRadioButton
+      - title: QCheckButton
+
+  - title: Item Widget
+    children:
+      - title: QListWidget
+      - title: QTreeWidget
+      - title: QTableWidget
+
+  - title: Model/View
+    children:
+      - title: QListView
+      - title: QTreeView
+      - title: QTableView
+      - title: Delegate
+
+  - title: Container
+    children:
+      - title: QGroupBox
+      - title: QScrollArea
+      - title: QToolBox
+      - title: QTabWidget
+      - title: QStackWidget
+      - title: QFrame
+      - title: MDI
+      - title: QDockWidget
+  - title: Input
+    children:
+      - title: ComboBox
+      - title: Font Combo Box
+      - title: LineEdit
+      - title: TextEdit
+      - title: PlainTextEdit
+      - title: SpinBox
+      - title: Double Spin Box
+      - title: Time Edit
+      - title: Date Edit
+      - title: Date / Time Edit
+      - title: Dial
+      - title: Horizontal Scroll Bar
+      - title: Vertical Scroll Bar
+      - title: Key Squence Edit
+
+  - title: Display Widget
+    children:
+      - title: Label
+      - title: Text Browser
+      - title: Graphic View
+      - title: Calender Widget
+      - title: LCD Number
+      - title: Process Bar
+      - title: Horizontal and Vertical Line
+      - title: QWebEngineView
+
+  - title: Style 예제
+  - title: Qt.Gui 예제
+  - title: Qt Framework
+  - title: 응용 프로그램 만들기
+    children:
+      - title: 메모장 만들기
+      - title: 메모장 기능 추가
+  - title: QML
+  - title: 패키징 및 배포
+  - title: 테스트 작성
+
+
+
