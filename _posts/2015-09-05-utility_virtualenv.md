@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "virtualenv - 파이썬 가상 환경 구축"
-tags: ["파이썬_주변도구"]
-category: "python_investigation"
+tags: Python
 ---
 
 ## 왜 필요한가?
@@ -42,12 +40,11 @@ virtualenv를 이용하여 **개발 환경을 프로젝트별로 분리하여 �
 
 위의 명령을 실행하면 별 말 없이 실행되며 이용중인 가상 환경의 이름이 계속 프롬프트에 붙어있게 된다.
 
-	(mytestenv)
-	raven@imdeoggyuui-MacBook-Pro ~
-	  %                                                                                 
-	(mytestenv)
-	raven@imdeoggyuui-MacBook-Pro ~
-	  %   
+{% highlight bash %}
+(mytestenv)
+raven@imdeoggyuui-MacBook-Pro ~
+  %                                                                                  
+{% endhighlight %}
 
 가상 환경 mytestenv으로 잘 들어왔다는 것을 뜻한다. 이제 `python` 또는 `python3`를 입력하여 버전 또는 바뀐 환경변수등을 확인해 보자.
 

@@ -13,20 +13,22 @@ tags: ["Python"]
 * 어떻게 이전 코드를 바꿀 수 있는지 **경고**
 
 ## 예제 코드
-	
-	import	warnings
-	
-	class Car(object):
-		def turn_left(self):
-			warnings.warn("turn_left is deprecated, use turn instead", DeprecationWarning)
-			self.turn(direction='left')
-		
-		def turn(self, direction):
-			'''차를 어떤 방향으로 회전한다.
-			:param direction: 회전할 방향
-			:type direction: str
-			'''
-			pass    		
+
+{% highlight python linenos %}
+import	warnings
+
+class Car(object):
+    def turn_left(self):
+        warnings.warn("turn_left is deprecated, use turn instead", DeprecationWarning)
+        self.turn(direction='left')
+    
+    def turn(self, direction):
+        '''차를 어떤 방향으로 회전한다.
+        :param direction: 회전할 방향
+        :type direction: str
+        '''
+        pass    		
+{% endhighlight %}
 
 ## 유의할 점
 테스트를 실행할 때 **python 인터프리터를 -W error 옵션과 함께 실행하면 경고를 '예외'로 발생시킨다.** 언젠가 중단될 함수를 호출하는 것이 에러가 되어 코드를 고쳐야 함을 정확히 알 수 있다.

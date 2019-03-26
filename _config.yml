@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 똘이와 옆집누나의 탐구생활
+title   : 임덕규 블로그
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  About Dev
 theme: jekyll-text-theme
 
 ## => Language and Timezone
@@ -35,7 +35,7 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 ##############################
 author:
   type      : person # "person" (default), "organization"
-  name      : Raven
+  name      : Duk-Kyu Lim
   url       :
   avatar    : # path or url of avatar image
   bio       :
